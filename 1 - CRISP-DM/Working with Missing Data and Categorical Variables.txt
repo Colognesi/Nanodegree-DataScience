@@ -1,0 +1,54 @@
+Here we can think in 3 strategies to work with missing data
+
+1 - Remove rows or columns
+2 - Impute Values
+3 - Work Arround
+
+1 - Remove rows or columns
+Before doing this, we should ask "Why these data are not present?".
+Removing data from ou dataset could lead to creating a bias model (And this is also true when imputing data)
+
+There is no perfect solution while dealing with missing data, so we need to explore and find the best solution for our problem.
+A example we could use, its to imagine to sending a quiz to some people, after seeing that they didn't answear all the questions, 
+we could do this:
+
+One good solution, could be to create a column to track which question the user's didn't answear and try to improve our metrics.
+
+Droping data is aceptable in some cases example:
+1 Data Entry Errors
+2 Mechanical Errors
+3 We dont need the data
+
+When dealing with dropping a column, we have to take account some things in consideration.
+We need to know the proportion of the column that is missing.
+Lets say a column has 5% of his values missing, we could keep that column for it has 95% of the information we need.
+If a column has 90% of is value missing, we could drop her without worring too much.
+It does not matter how much of a column is missing, atempting to create a informative resource of the missing values its a good strategi.
+We could create a dummy variable for example.
+
+2 - Imputing values
+
+This is probably the most common way professionals work with missing values,
+However it's important to understand its drawbacks.
+The most common methods to imputing new values, its using:
+1 mean
+2 median
+3 mode
+
+We can also predict the missing values in our dataset using other columns and a supervised model
+We too can try to find similar rows and fill with their values
+
+Note:
+By imputing any values, we are diluting the importance of that feature, variability in features is what allows us to use them to predict
+another variable well.
+
+Pros:
+You are not removing rows or columns associated with missing values
+
+Cons:
+You are diluting the power of your features to predict well by reducing variability in those features.
+
+Adding dummy variables, depending on the quantity of variables we put in, we can cause our model to overfit
+Overfit its when our model adjust perfectly to data he seen before, but cant predict well new data
+This problem can be true in alot o cases, this is related with the called "Cold Start Problem".
+That consists in asking "How to predict on individuals that we have no imput data for?"

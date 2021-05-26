@@ -1,0 +1,74 @@
+The most commom proccess used to find most solutions on data science.
+Known as "Cross Industry Standard Process for Data Mining" or CRISP-DM.
+
+It's the standard proccess used in industry for data analysisfor years and has 6 major phases:
+
+1: Business Understanding
+2: Data Understanding
+3: Data Preparation
+4: Modeling the data
+5: Evaluation of the results
+6: Deployment of changes based on your analysis.
+
+==============================
+
+Looking on the first two phases
+Business Understanding:
+You need to understand the problem, Examples:
+
+How to get more customers?
+Is a new threatment better?
+
+How to make the most of:
+Trave?
+Communication?
+Information?
+
+Data Understanding
+Need to gain the understanding of the data you need to answear your question,
+Sometimes you got a mountain pile of data that need digging through to find insights.
+Other times you have to collect data, so you have to understand what kind of data will be able to provide you the kind of insigts you need.
+
+We have 2 ways of getting to our question of interest:
+Data > Question > Solution
+In this case, you already got data, need to find questions of interest and then provide a solution
+
+Question > Data > Solution
+Here you have some questions, but no data, soo you need to start working on collecting the data to answear your questions.
+
+===========================
+
+Now entering on the 3º step, Data Preparation
+
+In this step, we're going to start collecting the Data to answear our questions of interest and after that
+We'll be starting another proccess, Data Wrangling, most of the time this proccess its the most time consuming
+
+===========================
+
+Modeling the data
+
+A simplified modeling proccess using scikit-learn takes 4 steps(These steps are associated to a supervised model):
+1 - Instantiate our model
+2 - Fit our model to our training data
+3 - Use our model to predict some test data
+4 - Score our model using a metric to see how it performs
+
+===========================
+
+Evaluation
+
+Its the proccess where you choose the most adequate metric to work on your model
+And its very important to do some tests to see how your model will react
+
+===========================
+
+Deployment
+
+There are 2 main methods to use the results of your analisys
+1 Deploy your model to automate tasks
+2 Comunicate your data insights with others to take action, to persuade others to take a decision or take a certain action.
+
+To comunicate with:
+Developers - Github
+Online Comunity - Dashboards and E-mails
+
