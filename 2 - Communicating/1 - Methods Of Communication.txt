@@ -31,4 +31,69 @@ What methods did you try? What worked? What didn't work?
 5.Licensing, Authors, Acknowledgements - You always want to give credit where necessary. Acknowledge other contributors, 
 helpful peers, data providers, etc.
 
+=====================
 
+Know your audience
+
+When writing a post to a specific audience (in our case, developers or data scientist) we need to specify some things
+So our post gets more atention.
+
+Technical Audience Discussion Topics:
+1 Techinical Details
+2 Edge Cases
+3 Data Integrity Issues
+4 Thought Process
+5 Creative Solutions
+6 Existing Solutions
+
+Broad Audience Discussion Topics
+1 Questions of Interest
+2 Results for each
+3 Everyone Relates better to visuals
+
+=========================
+
+Captivate your audience
+1: Catch their eye
+
+We need to get the reader on their first impression of us, soo we need to do some simple things to help achieving that.
+The first thing they will see, its the arcticle title and the image you choose, soo thats one of the most important things to do.
+
+Too keep the reader on your page, you got at aproximately 2 sentences and a image to captivate the reader to stay
+A usefull tatic is to tell a personal story about youserlf that the reader can relate to it too, or asking questions
+your public would also ask. Another tatic its to use current events that are fresh on people's mind.
+Creating content that is relevant to your public its key to keep them on your page
+
+The content on the page should be broken up on approximately 3 lines per ideia (5 lines max). People get exausted if there's no
+break on the text or dont see any visual.
+
+2: End with a call-to-action
+
+Need to find an ending that transmits the arguments to the reader and leaves them with a positive feeling about
+the time they spent reading your article.
+
+How to end your post:
+Reiterate the main points
+Call to action
+
+============================
+
+Logistic reminders
+
+1 Beeing short and sweet 
+Wheneaver possible will increase the number of viewers limit your post from 1 to 2 pages 
+or 200 to 500 words (without counting the images),The post should take less than 8 minutes to read.
+
+2 Create an outline
+Introduction
+
+Takeaway 1 (Example: How to break in to the field)
+Takeaway 2 (Example: How these relate to salary and job satisfaction)
+Takeaway 3 (What biases did respondents have)
+
+Conclusion
+
+3 Review your work
+1 Catch small mistakes 
+2 Assure you are communicating effectively
+3 Also provide unfinished ideas to iterate on
