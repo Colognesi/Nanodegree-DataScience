@@ -198,3 +198,28 @@ from shirt import Shirt.
 
 For now, as you get used to OOP syntax, you'll be completing exercises in Jupyter Notebooks. 
 Midway through the lesson, you'll modularize object-oriented code into separate files.
+
+================================================
+
+
+Inheritance is the last object-oriented programming topic in the lesson. Thus far you've been exposed to:
+
+Classes and objects
+Attributes and methods
+Magic methods
+Inheritance
+Classes, object, attributes, methods, and inheritance are common to all object-oriented programming languages.
+
+Knowing these topics is enough to start writing object-oriented software. What you've learned so far is all you need to know to complete this 
+OOP lesson. However, these are only the fundamentals of object-oriented programming.
+
+=================================================
+
+Making a package
+In the previous section, the distribution and Gaussian code was refactored into individual modules. A Python module is just a Python file containing code.
+
+In this next section, you'll convert the distribution code into a Python package. A package is a collection of Python modules. 
+Although the previous code might already seem like it was a Python package because it contained multiple files, 
+a Python package also needs an __init__.py file. In this section, you'll learn how to create this __init__.py file and then 
+pip install the package into your local Python installation.
+
