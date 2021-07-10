@@ -1,0 +1,14 @@
+This lesson uses data from the World Bank. The data comes from two sources:
+
+World Bank Indicator Data - This data contains socio-economic indicators for countries around the world. A few example indicators 
+include population, arable land, and central government debt.
+World Bank Project Data - This data set contains information about World Bank project lending since 1947.
+Both of these data sets are available in different formats including as a csv file, json, or xml. You can download the csv directly 
+or you can use the World Bank APIs to extract data from the World Bank's servers. You'll be doing both in this lesson.
+
+The end goal is to clean these data sets and bring them together into one table. As you'll see, it's not as easy as one might hope. 
+By the end of the lesson, you'll have written an ETL pipeline to extract, transform, and load this data into a new database.
+
+The goal of the lesson is to combine these data sets together so that you can run a linear regression model predicting World Bank 
+Project total costs. You will not actually build the model; instead, you will get the data ready so that a data analyst or data scientist 
+could more easily build the model.
