@@ -1,0 +1,81 @@
+In this lesson, you will be working with the MovieTweetings data to apply each of the three methods of recommendations:
+
+	Knowledge Based Recommendations
+	Collaborative Filtering Based Recommendations
+	Content Based Recommendations
+
+Within Collaborative Filtering, there are two main branches:
+
+Model Based Collaborative Filtering
+Neighborhood Based Collaborative Filtering
+
+In this lesson, you will implement Neighborhood Based Collaborative Filtering. In the next lesson, you will implement Model Based 
+Collaborative Filtering.
+
+Similarity Metrics
+In order to implement Neighborhood Based Collaborative Filtering, you will learn about some common ways to measure the similarity 
+between two users (or two items) including:
+
+	Pearson's correlation coefficient
+	Spearman's correlation coefficient
+	Kendall's Tau
+	Euclidean Distance
+	Manhattan Distance
+
+You will learn why sometimes one metric works better than another by looking at a specific situation where one metric provides 
+more information than another.
+
+Business Cases For Recommendations
+Finally, you will look at the four ideas needed for businesses to implement successful recommendations to drive revenue, which include:
+
+Relevance
+Novelty
+Serendipity
+Increased Diversity
+
+
+===================================================================
+knowledge based recommendation
+
+A knowledge based recommendation is one in which knowledge about the item or user preferences are used to make a recommendation.
+
+Knowledge based recommendations are pretty common when purchasing luxury items. Take a look at the filters available on Zillow in 
+the image below. This is an example of building in a knowledge based recommendation, as users can add their own preferences to the 
+items that are provided.
+
+Often a rank based algorithm is provided along with knowledge based recommendations to bring the most popular items in particular 
+categories to the user's attention.
+
+===================================================================
+
+Collaborative Filtering and Content Based Recommendations
+
+Collaborative filtering is a method of making recommendations based only on the interactions between users and items.
+Alternatively, content based recommendations are when we use information about the users or items to assist in our recommendations.
+
+===================================================================
+
+Collaborative Filtering
+There are two main ways to implement collaborative filtering:
+
+Model Based Collaborative Filtering
+Neighborhood Based Collaborative Filtering
+
+In this lesson, we will cover Neighborhood Based Collaborative Filtering, which is used to identify items or users that are "neighbors" 
+with one another.
+
+There are a number of ways we might go about finding an individual's closest neighbors - the metrics we will take a closer look at include:
+
+Similarity Based Methods
+	Pearson's correlation coefficient
+	Spearman's correlation coefficient
+	Kendall's Tau
+Each of these measures takes a value in a range of -1 to 1. Using any of these measures, as value come close to 1, it sugests that 2 individuals
+are more similar. To make recomendations, we want to find users with the higher values of these coeficients., because they will be more similar
+and therefore, neighbors.
+
+Distance Based
+	Euclidean Distance
+	Manhattan Distance
+Different from the similariry based metrics, we want to find small values between those values.
+Distance based metrics can vary from 0 to infinity, the closer the individuals are to 0, they will be more similar to one another.
